@@ -4,7 +4,7 @@ def symmetric_difference(a, b):
     return sorted(a.symmetric_difference(b))
 
 if __name__ == '__main__':
-    # Read input values
+    
     M = int(input())
     a = set(map(int, input().split()))
     N = int(input())
